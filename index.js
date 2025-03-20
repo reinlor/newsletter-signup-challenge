@@ -11,13 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
             if (valid) {
                 localStorage.setItem("userEmail", email); 
                 window.location.href = "success.html";
-            } else if (email.length === 0) {
+            } else{
                 error.textContent = "Valid Email Required";
                 error.style.display = "block";
                 mail.style.borderColor = "red";
                 mail.style.backgroundColor = "#ffe6e6";
-            } else {
-                window.location.href = "failed.html";
             }
         };
     }
