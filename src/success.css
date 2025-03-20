@@ -1,0 +1,46 @@
+.container{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    padding: 60px;
+    color: #111827;
+}
+
+h1{
+    font-size: 4em;
+}
+
+p{
+    font-size: 20px;
+}
+
+button{
+    width: 90%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:600px){
+    .container {
+        width: 100vh;
+        height: 100vh;
+        border-radius: 0px;
+        padding: 60px;
+    }
+
+    img{
+        margin-top: 50px;
+    }
+    
+    button {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%); 
+        max-width: 85%;
+    }   
+    }

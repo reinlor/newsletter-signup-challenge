@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+    background-color: rgba(54,56,77,255);
+    font-family: robotoFont;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #111827;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #ff5474 , #ff673e);
+    box-shadow: 5px 5px 10px #cd8c88;
+}
+
+@font-face {
+    font-family: robotoFont;
+    src: url(/assets/fonts/Roboto-Regular.ttf);
+  }
